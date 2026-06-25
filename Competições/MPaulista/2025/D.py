@@ -41,7 +41,6 @@ for pao in range(1, p + 1):
                     for futuros_ingredientes in range(ingrediente, n + 1):
                             
                         # verifico se até agora não existe um ingrediente que não combina com o outro
-                        
                         if not ingrediente in ingredientesAtuais and not verificar_ingredientes(ingredientesAtuais, ingrediente):
                             ingredientesAtuais.append(ingrediente)
                     
