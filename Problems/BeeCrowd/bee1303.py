@@ -106,6 +106,9 @@ while True:
             print() 
 
         listaTimes = ordenar(listaTimes.copy())
+
+        # listaTimes.sort(key=lambda x: (-x[1], -x[2] if x[3] == 0 else -x[2]/x[3], -x[2], x[0]))
+        # ridiculo
         resp = ""
         print(f"Instancia {inst}")
         for i in range(len(listaTimes)):            
